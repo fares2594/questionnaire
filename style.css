@@ -1,0 +1,29 @@
+.num{
+    color: brown;
+}
+.texte-num{
+    display: flex;
+}
+.imgage{
+    margin-left: auto;
+}
+
+/*****************************************************************************/
+
+.card:hover{
+    cursor:pointer;
+    border-color: crimson;
+    
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+.rtl input,
+.rtl textarea,
+.rtl select {
+    direction: ltr;
+    text-align: left;
+}
